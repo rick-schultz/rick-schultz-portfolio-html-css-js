@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a Frontend Web Developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+<meta itemprop="name" content="Rick Schultz Portfolio">
+<meta itemprop="description" content="Welcome to my portfolio website. I am a Frontend Web Developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in place of content -->
+<meta itemprop="image" content="assets/images/sharing-card.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="http://rick-schultz.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rick Schultz Portfolio">
+<meta property="og:description" content="Welcome to my portfolio website. I am a Frontend Web Developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta property="og:image" content="assets/images/sharing-card.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rick Schultz Portfolio">
+<meta name="twitter:description" content="Welcome to my portfolio website. I am a Frontend Web Developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects and contact me for any inquiries or collaborations.">
+
+<!-- Reference screenshot of updated site's header in content -->
+<meta name="twitter:image" content="assets/images/sharing-card.png">
+
+
+<!-- Favicon href -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/icon"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <!-- Name -->
+    <title>Rick Schultz Portfolio</title>
+  </head>
+
+  <body>
+
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+
+      <div class="menu-btn-container">
+        <div class="container">
+          <button class="menu-btn">Menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" aria-data="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Name and job title -->
+          <h1 class="h1">
+            Hi, I'm Rick Schultz<br />
+            Frontend Web Developer
+          </h1>
+
+          <!-- Small introductory paragraph -->
+          <p class="header-text">
+            A Frontend Developer focused on Vue.js and Typescript who builds
+            rich accessible and performant websites.
+          </p>
+
+          <div class="header-btns">
+            <a href="#contact" class="btn btn-cta">Hire me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Trusted by</h2>
+          <div class="logos">
+            <!-- alt with client/company name and src attributes of images with path to relative img of client logo -->
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/hoom-it.svg"
+                alt="Hoom-IT"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/roller.svg"
+                alt="Roller"
+                class="logo hide to-bottom"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/die-medialen.svg"
+                alt="Roller"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/die-medialen.svg"
+                alt="die Medialen"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/lust.svg"
+                alt="Lust Gastronomie"
+                class="logo"
+              />
+
+              <img
+              loading="lazy"
+              src="assets/images/trusted-by/itude.svg"
+              alt="iTUDE"
+              class="logo hide to-top"
+            />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/itude.svg"
+                alt="iTUDE"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/leiturinha.svg"
+                alt="Leiturinha"
+                class="logo"
+              />
+
+              <img
+              loading="lazy"
+              src="assets/images/trusted-by/roller.svg"
+              alt="Roller"
+              class="logo hide to-top"
+            />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/roller.svg"
+                alt="Roller"
+                class="logo hide to-top"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/hoom-it.svg"
+                alt="Hoom-IT"
+                class="logo"
+              />
+
+              <img
+              loading="lazy"
+              src="assets/images/trusted-by/leiturinha.svg"
+              alt="iTUDE"
+              class="logo hide to-top"
+            />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" aria-label="hidden">
+        <div class="container">
+          <h2 class="h2" id="work">Work Portfolio</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Roller</h3>
+                <!-- Add small description of the project  -->
+                <p class="work-text">
+                  My job was refactoring Vue 2 components to Vue 3 with Typescript
+                  and documenting them in Storybook according to new layouts.
+                </p>
+                <!-- Add technologies you used to build the project -->
+                <ol class="work-technologies">
+                  <li>Vue.js</li>
+                  <li>UnoCSS</li>
+                  <li>Storybook</li>
+                  <li>Pinia</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Url of project in href attribute -->
+                  <a href="https://roller.de" target="_blank" rel="noopener" class="link"
+                    >Go to Website</a
+                  >
+                </div>
+              </div>
+
+         <!-- img src and alt attribute  -->
+
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/roller.webp"
+                  alt="agency elevation"
+                />
+              </picture>
+            </div>
+            
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Project title -->
+                <h3 class="h3">Lust Gastronomie</h3>
+                <!-- Small description of the project  -->
+
+                <p class="work-text">Built Website for a Restaurant.</p>
+                <ol class="work-technologies">
+                  <li>Vue.js</li>
+                  <li>AOS</li>
+                  <li>Tailwind</li>
+                </ol>
+                <div class="work-links">
+                  <!-- url of project in href attribute -->
+                  <a href="https://lust-gastronomie.de/" target="_blank" rel="noopener" class="link"
+                    >Go to Website</a
+                  >
+                </div>
+              </div>
+         <!-- img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/lust.webp"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Project title -->
+                <h3 class="h3">iTUDE</h3>
+                <!-- Small description of the project  -->
+                <p class="work-text">
+                  My job was to maintain the website that was made with a PHP framework
+                  called CodeIgniter and to develop a whole new website with Vue.js
+                  for Frontend and Node.js for Backend.
+                </p>
+                <ol class="work-technologies">
+                  <li>PHP / CodeIgniter</li>
+                  <li>Vue.js</li>
+                  <li>Node.js</li>
+                </ol>
+                <div class="work-links">
+                  <!-- url of project in href attribute -->
+                  <a href="https://itude.com.br" target="_blank" rel="noopener" class="link"
+                    >Go to Website</a
+                  >
+                </div>
+              </div>
+         <!-- img src and alt attribute  -->
+              <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/itude.webp"
+                  alt="contribute dev"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- skills-img src, alt  and title attributes  -->
+
+      <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+            <img src="assets/images/skills/typescript.svg" alt="Typescript" class="skills-img" loading="lazy" title="Typescript">
+            <img src="assets/images/skills/js.svg" alt="JavaScript" class="skills-img" loading="lazy" title="JavaScript">
+            <img src="assets/images/skills/vue.svg" alt="Vue.js" class="skills-img" loading="lazy" title="Vue.js">
+            <img src="assets/images/skills/vuetify.svg" alt="Vuetify" class="skills-img" loading="lazy" title="Vuetify">
+            <img src="assets/images/skills/tailwind.svg" alt="Tailwind CSS" class="skills-img" loading="lazy" title="Tailwind CSS">
+            <img src="assets/images/skills/html.svg" alt="HTML" class="skills-img" loading="lazy" title="HTML">
+            <img src="assets/images/skills/css.svg" alt="CSS" class="skills-img" loading="lazy" title="CSS">
+            <img src="assets/images/skills/a11y.svg" alt="Accessibility" class="skills-img" loading="lazy" title="Web Accessibility">
+            <img src="assets/images/skills/git.svg" alt="Git" class="skills-img" loading="lazy" title="Git">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Component to show if available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              
+              <p class="contact-text">
+                As a Fontend Developer, I construct web interfaces and design
+                systems with a special love for accessibility and the
+                performance. I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+
+              <div class="contact-text">
+                <p class="text-around">Contact me on</p>
+                <div class="work-links">
+                  <a href="https://www.linkedin.com/in/rick-schultz/" target="_blank" rel="noopener" class="link"
+                  >LinkedIn</a
+                  >
+                </div>
+                <p class="text-around">or send me an email.</p>
+              </div>
+              
+              <!-- src with signatures and name -->
+              <img
+                src="assets/images/signatures.png"
+                alt="Rick Schultz"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="mailto:rick-schultz@hotmail.com" method="post" enctype="text/plain" class="contact-form">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a title="GitHub" href="https://github.com/rick-schultz" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a title="Linkedin" href="https://www.linkedin.com/in/rick-schultz/" target="_blank" rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; 2023 - Rick Schultz
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch"/>
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
