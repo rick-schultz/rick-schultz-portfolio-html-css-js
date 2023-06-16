@@ -57,7 +57,7 @@
     <script src="script.js" defer></script>
 
     <!-- Name -->
-    <title>Rick Schultz Portfolio</title>
+    <title id="title">Rick Schultz Portfolio</title>
   </head>
 
   <body>
@@ -71,17 +71,29 @@
 
       <div class="menu-btn-container">
         <div class="container">
-          <button class="menu-btn">Menu</button>
+          <button class="menu-btn" id="navMenu">Menu</button>
         </div>
       </div>
-
+      
       <nav class="nav hidden">
         <ol class="nav-items">
-          <li class="nav-item"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#work">My Work</a></li>
-          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item"><a href="#" id="navHome">Home</a></li>
+          <li class="nav-item"><a href="#work" id="navWork">My Work</a></li>
+          <li class="nav-item"><a href="#skills" id="navSkills">My Skills</a></li>
           <li class="nav-item">
-            <a href="#contact" aria-data="last-focused">Contact</a>
+            <a href="#contact" aria-data="last-focused" id="navContact">Contact</a>
+          </li>
+          <li class="gap">
+            <a class="link" href="#" id="deBtn">DE</a>
+            <a class="link" href="#" id="enBtn">EN</a>
+            <a class="link" href="#" id="esBtn">ES</a>
+            <a class="link" href="#" id="ptBtn">PT</a>
+          </li>
+          <li>
+            <label class="theme-switch" for="theme-switch">
+              <span id="theme">Dark Theme</span>
+              <input type="checkbox" id="theme-switch" role="switch"/>
+            </label>
           </li>
         </ol>
       </nav>
@@ -90,19 +102,19 @@
         <div class="header-textbox">
           <!-- Name and job title -->
           <h1 class="h1">
-            Hi, I'm Rick Schultz<br />
-            Frontend Web Developer
+            <span id="headerTitle">Hi, I'm Rick Schultz</span><br />
+            <span id="headerSubtitle">Frontend Web Developer</span>
           </h1>
 
           <!-- Small introductory paragraph -->
-          <p class="header-text">
+          <p class="header-text" id="headerText">
             A Frontend Developer focused on Vue.js and Typescript who builds
             rich accessible and performant websites.
           </p>
 
           <div class="header-btns">
-            <a href="#contact" class="btn btn-cta">Hire me</a>
-            <a href="#work" class="btn btn-secondary">See my work</a>
+            <a href="#contact" class="btn btn-cta" id="headerBtn1">Hire me</a>
+            <a href="#work" class="btn btn-secondary" id="headerBtn2">See my work</a>
           </div>
         </div>
       </div>
@@ -111,7 +123,7 @@
     <main>
       <section class="client">
         <div class="container">
-          <h2 class="h2">Trusted by</h2>
+          <h2 class="h2" id="trusted">Trusted by</h2>
           <div class="logos">
             <!-- alt with client/company name and src attributes of images with path to relative img of client logo -->
             <div class="logo-group">
@@ -215,7 +227,7 @@
                 <!-- Add your project title here -->
                 <h3 class="h3">Roller</h3>
                 <!-- Add small description of the project  -->
-                <p class="work-text">
+                <p class="work-text" id="rollerText">
                   My job was refactoring Vue 2 components to Vue 3 with Typescript
                   and documenting them in Storybook according to new layouts.
                 </p>
@@ -229,7 +241,7 @@
 
                 <div class="work-links">
                   <!-- Url of project in href attribute -->
-                  <a href="https://roller.de" target="_blank" rel="noopener" class="link"
+                  <a href="https://roller.de" target="_blank" rel="noopener" class="link" id="rollerLink"
                     >Go to Website</a
                   >
                 </div>
@@ -252,7 +264,7 @@
                 <h3 class="h3">Lust Gastronomie</h3>
                 <!-- Small description of the project  -->
 
-                <p class="work-text">Built Website for a Restaurant.</p>
+                <p class="work-text" id="lustText">Built Website for a Restaurant.</p>
                 <ol class="work-technologies">
                   <li>Vue.js</li>
                   <li>AOS</li>
@@ -260,7 +272,7 @@
                 </ol>
                 <div class="work-links">
                   <!-- url of project in href attribute -->
-                  <a href="https://lust-gastronomie.de/" target="_blank" rel="noopener" class="link"
+                  <a href="https://lust-gastronomie.de/" target="_blank" rel="noopener" class="link" id="lustLink"
                     >Go to Website</a
                   >
                 </div>
@@ -280,7 +292,7 @@
                 <!-- Project title -->
                 <h3 class="h3">iTUDE</h3>
                 <!-- Small description of the project  -->
-                <p class="work-text">
+                <p class="work-text" id="itudeText">
                   My job was to maintain the website that was made with a PHP framework
                   called CodeIgniter and to develop a whole new website with Vue.js
                   for Frontend and Node.js for Backend.
@@ -292,7 +304,7 @@
                 </ol>
                 <div class="work-links">
                   <!-- url of project in href attribute -->
-                  <a href="https://itude.com.br" target="_blank" rel="noopener" class="link"
+                  <a href="https://itude.com.br" target="_blank" rel="noopener" class="link" id="itudeLink"
                     >Go to Website</a
                   >
                 </div>
@@ -338,10 +350,10 @@
               <!-- Component to show if available for hire -->
               <strong href="#" class="hire-alert">
                 <span class="indicator"></span>
-                Available for hire
+                <span id="indicator">Available for hire</span>
               </strong>
               
-              <p class="contact-text">
+              <p class="contact-text" id="contactText">
                 As a Fontend Developer, I construct web interfaces and design
                 systems with a special love for accessibility and the
                 performance. I tend to code things from scratch and enjoy
@@ -349,13 +361,13 @@
               </p>
 
               <div class="contact-text">
-                <p class="text-around">Contact me on</p>
+                <p class="text-around" id="contactLinkText1">Contact me on</p>
                 <div class="work-links">
                   <a href="https://www.linkedin.com/in/rick-schultz/" target="_blank" rel="noopener" class="link"
                   >LinkedIn</a
                   >
                 </div>
-                <p class="text-around">or send me an email.</p>
+                <p class="text-around" id="contactLinkText2">or send me an email.</p>
               </div>
               
               <!-- src with signatures and name -->
@@ -368,11 +380,11 @@
             </div>
             <form action="mailto:rick-schultz@hotmail.com" method="post" enctype="text/plain" class="contact-form">
               <div class="form-field">
-                <label for="name">Name</label>
+                <label for="name" id="formName">Name</label>
                 <input type="text" name="name" id="name" required />
               </div>
               <div class="form-field">
-                <label for="email">Email</label>
+                <label for="email" id="formEmail">Email</label>
                 <input
                   type="email"
                   name="email"
@@ -382,10 +394,10 @@
                 />
               </div>
               <div class="form-field">
-                <label for="message">How can I help you?</label>
+                <label for="message" id="formText">How can I help you?</label>
                 <textarea name="message" id="message" required></textarea>
               </div>
-              <button type="submit" class="btn btn-cta">Send</button>
+              <button type="submit" class="btn btn-cta" id="formBtn">Send</button>
             </form>
           </div>
         </div>
@@ -419,10 +431,6 @@
           <p class="footer-text">
             &copy; 2023 - Rick Schultz
           </p>
-          <label class="theme-switch" for="theme-switch">
-            <span>Dark Theme</span>
-            <input type="checkbox" id="theme-switch" role="switch"/>
-          </label>
         </div>
       </div>
     </footer>

@@ -265,6 +265,16 @@ h3,
 /* ----- Components -----*/
 /* --------------------------------- */
 
+.gap {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+#deBtn, #enBtn, #ptBtn, #esBtn {
+color: #fff;
+}
+
 .btn {
   font-size: 1.35rem;
   font-weight: 700;

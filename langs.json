@@ -1,0 +1,226 @@
+{
+  "en": {
+    "title": "Rick Schultz Portfolio",
+    "nav": {
+      "menu": "Menu",
+      "close": "Close",
+      "home": "Home",
+      "work": "Work",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "header": {
+      "title": "Hi, I'm Rick Schultz",
+      "subtitle": "Frontend Web Developer",
+      "text": "A Frontend Developer focused on Vue.js and Typescript who builds rich accessible and performant websites.",
+      "btn1": "Hire me",
+      "btn2": "See my work"
+    },
+    "trusted": "Trusted by",
+    "work": {
+      "title": "Work Portfolio",
+      "companies": {
+        "roller":{
+          "text": "My job was refactoring Vue 2 components to Vue 3 with Typescript and documenting them in Storybook according to new layouts.",
+          "link": "Go to Website"
+        },
+        "lust": {
+          "text": "Built Website for a Restaurant.",
+          "link": "Go to Website"
+        },
+        "itude": {
+          "text": "My job was to maintain the website that was made with a PHP framework called CodeIgniter and to develop a whole new website with Vue.js for Frontend and Node.js for Backend.",
+          "link": "Go to Website"
+        }
+      }
+    },
+    "skills": "My Toolkit",
+    "contact": {
+      "title": "Send Message",
+      "indicator": "Available for hire",
+      "text": "As a Fontend Developer, I construct web interfaces and design systems with a special love for accessibility and the performance. I tend to code things from scratch and enjoy bringing ideas to life.",
+      "link": {
+        "text1": "Contact me on",
+        "text2": "or send me an email."
+      },
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "text": "How can I help you?",
+        "btn": "Send"
+      }
+    },
+    "theme": {
+      "light": "Light Mode",
+      "dark": "Dark Mode"
+    }
+  },
+  "pt-br": {
+    "title": "Portfólio do Rick Schultz",
+    "nav": {
+      "menu": "Menu",
+      "close": "Fechar",
+      "home": "Home",
+      "work": "Trabalhos",
+      "skills": "Habilidades",
+      "contact": "Contato"
+    },
+    "header": {
+      "title": "Olá, eu sou Rick Schultz",
+      "subtitle": "Desenvolvedor Web Frontend",
+      "text": "Um desenvolvedor Frontend focado em Vue.js e Typescript que constrói sites ricos, acessíveis e performáticos.",
+      "btn1": "Me Contrate",
+      "btn2": "Veja meu trabalho"
+    },
+    "trusted": "Confiado por",
+    "work": {
+      "title": "Portfólio de Trabalhos",
+      "companies": {
+        "roller":{
+          "text": "Meu trabalho foi refatorar os componentes de Vue 2 para Vue 3 com Typescript e documentá-los no Storybook de acordo com os novos layouts.",
+          "link": "Ir para o site"
+        },
+        "lust": {
+          "text": "Construí o site para um restaurante.",
+          "link": "Ir para o site"
+        },
+        "itude": {
+          "text": "Meu trabalho era manter o site criado com o framework PHP CodeIgniter e desenvolver um site completamente novo com Vue.js no Frontend e Node.js no Backend.",
+          "link": "Ir para o site"
+        }
+      }
+    },
+    "skills": "Minhas Ferramentas",
+    "contact": {
+      "title": "Enviar Mensagem",
+      "indicator": "Disponível para contratação",
+      "text": "Como desenvolvedor de Frontend, eu construo interfaces web e sistemas de design com um amor especial pela acessibilidade e pelo desempenho. Eu tendo a codificar as coisas do zero e gosto de dar vida às ideias.",
+      "link": {
+        "text1": "Entre em contato comigo no",
+        "text2": "ou me envie um email."
+      },
+      "form": {
+        "name": "Nome",
+        "email": "Email",
+        "text": "Como posso ajudá-lo?",
+        "btn": "Enviar"
+      }
+    },
+    "theme": {
+      "light": "Tema Claro",
+      "dark": "Tema Escuro"
+    }
+  },
+  "es": {
+    "title": "Portafolio de Rick Schultz",
+    "nav": {
+      "menu": "Menu",
+      "close": "Cerrar",
+      "home": "Home",
+      "work": "Trabajos",
+      "skills": "Habilidades",
+      "contact": "Contacto"
+    },
+    "header": {
+      "title": "Hola, soy Rick Schultz",
+      "subtitle": "Desarrollador Web Frontend",
+      "text": "Un desarrollador Frontend enfocado en Vue.js y Typescript que construye sitios web ricos, accesibles y de alto rendimiento.",
+      "btn1": "Contrátame",
+      "btn2": "Ver mi trabajo"
+    },
+    "trusted": "Confiado por",
+    "work": {
+      "title": "Portafolio de Trabajo",
+      "companies": {
+        "roller":{
+          "text": "Mi trabajo fue refactorizar los componentes Vue 2 a Vue 3 con Typescript y documentarlos en Storybook de acuerdo con los nuevos Layouts.",
+          "link": "Ir al sitio web"
+        },
+        "lust": {
+          "text": "Construí el sitio web para un restaurante.",
+          "link": "Ir al sitio web"
+        },
+        "itude": {
+          "text": "Mi trabajo era mantener el sitio web que se hizo con un framework PHP llamado CodeIgniter y desarrollar un sitio web completamente nuevo con Vue.js para Frontend y Node.js para Backend.",
+          "link": "Ir al sitio web"
+        }
+      }
+    },
+    "skills": "Mi Herramientas",
+    "contact": {
+      "title": "Enviar Mensaje",
+      "indicator": "Disponible para contratación",
+      "text": "Como desarrollador de Fontend, construyo interfaces web y sistemas de diseño con un amor especial por la accesibilidad y el rendimiento. Tiendo a codificar las cosas desde cero y disfruto dando vida a las ideas.",
+      "link": {
+        "text1": "Contáctame en",
+        "text2": "o envíame un correo electrónico."
+      },
+      "form": {
+        "name": "Nombre",
+        "email": "Email",
+        "text": "Cómo puedo ayudarte?",
+        "btn": "Enviar"
+      }
+    },
+    "theme": {
+      "light": "Tema Claro",
+      "dark": "Tema Oscuro"
+    }
+  },
+  "de": {
+    "title": "Rick Schultz Portfolio",
+    "nav": {
+      "menu": "Menü",
+      "close": "Schließen",
+      "home": "Start",
+      "work": "Arbeit",
+      "skills": "Fähigkeiten",
+      "contact": "Kontakt"
+    },
+    "header": {
+      "title": "Hallo, ich bin Rick Schultz",
+      "subtitle": "Frontend Webentwickler",
+      "text": "Ein Frontend-Entwickler, der sich auf Vue.js und Typescript konzentriert und reiche, zugängliche und leistungsstarke Websites erstellt.",
+      "btn1": "Stellen Sie mich ein",
+      "btn2": "Meine Arbeit ansehen"
+    },
+    "trusted": "Vertraut von",
+    "work": {
+      "title": "Arbeitsportfolio",
+      "companies": {
+        "roller":{
+          "text": "Meine Arbeit bestand darin, die Vue 2-Komponenten in Vue 3 mit Typescript zu refaktorisieren und sie gemäß den neuen Layouts im Storybook zu dokumentieren.",
+          "link": "Zur Website"
+        },
+        "lust": {
+          "text": "Ich habe die Website für ein Restaurant gebaut.",
+          "link": "Zur Website"
+        },
+        "itude": {
+          "text": "Meine Arbeit bestand darin, die Website zu warten, die mit einem PHP-Framework namens CodeIgniter erstellt wurde, und eine völlig neue Website mit Vue.js für Frontend und Node.js für Backend zu entwickeln.",
+          "link": "Zur Website"
+        }
+      }
+    },
+    "skills": "Mein Toolkit",
+    "contact": {
+      "title": "Nachricht senden",
+      "indicator": "Verfügbar für die Einstellung",
+      "text": "Als Frontend-Entwickler erstelle ich Web-Schnittstellen und Designsysteme mit einer besonderen Liebe zur Zugänglichkeit und Leistung. Ich neige dazu, die Dinge von Grund auf neu zu codieren, und ich genieße es, Ideen zum Leben zu erwecken.",
+      "link": {
+        "text1": "Kontaktieren Sie mich auf",
+        "text2": "oder senden Sie mir eine E-Mail."
+      },
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "text": "Wie kann ich Ihnen helfen?",
+        "btn": "Senden"
+      }
+    },
+    "theme": {
+      "light": "Hell Thema",
+      "dark": "Dunkle Thema"
+    }
+  }
+}
