@@ -11,8 +11,8 @@
     },
     "header": {
       "title": "Hi, I'm Rick Schultz",
-      "subtitle": "Frontend Web Developer",
-      "text": "A Frontend Developer focused on Vue.js and Typescript who builds rich accessible and performant websites.",
+      "subtitle": "Frontend JavaScript Developer",
+      "text": "A Frontend Developer focused on Vue.js, React.js and TypeScript who builds rich accessible and performant websites.",
       "btn1": "Hire me",
       "btn2": "See my work"
     },
@@ -21,7 +21,7 @@
       "title": "Work Portfolio",
       "companies": {
         "roller":{
-          "text": "My job was refactoring Vue 2 components to Vue 3 with Typescript and documenting them in Storybook according to new layouts.",
+          "text": "My job was refactoring Vue 2 components to Vue 3 with TypeScript and documenting them in Storybook according to new layouts.",
           "link": "Go to Website"
         },
         "lust": {
@@ -67,8 +67,8 @@
     },
     "header": {
       "title": "Olá, eu sou Rick Schultz",
-      "subtitle": "Desenvolvedor Web Frontend",
-      "text": "Um desenvolvedor Frontend focado em Vue.js e Typescript que constrói sites ricos, acessíveis e performáticos.",
+      "subtitle": "Desenvolvedor Frontend JavaScript",
+      "text": "Um desenvolvedor Frontend focado em Vue.js, React.js e TypeScript que constrói sites ricos, acessíveis e performáticos.",
       "btn1": "Me Contrate",
       "btn2": "Veja meu trabalho"
     },
@@ -77,7 +77,7 @@
       "title": "Portfólio de Trabalhos",
       "companies": {
         "roller":{
-          "text": "Meu trabalho foi refatorar os componentes de Vue 2 para Vue 3 com Typescript e documentá-los no Storybook de acordo com os novos layouts.",
+          "text": "Meu trabalho foi refatorar os componentes de Vue 2 para Vue 3 com TypeScript e documentá-los no Storybook de acordo com os novos layouts.",
           "link": "Ir para o site"
         },
         "lust": {
@@ -123,8 +123,8 @@
     },
     "header": {
       "title": "Hola, soy Rick Schultz",
-      "subtitle": "Desarrollador Web Frontend",
-      "text": "Un desarrollador Frontend enfocado en Vue.js y Typescript que construye sitios web ricos, accesibles y de alto rendimiento.",
+      "subtitle": "Desarrollador Frontend JavaScript",
+      "text": "Un desarrollador Frontend enfocado en Vue.js, React.js y TypeScript que construye sitios web ricos, accesibles y de alto rendimiento.",
       "btn1": "Contrátame",
       "btn2": "Ver mi trabajo"
     },
@@ -133,7 +133,7 @@
       "title": "Portafolio de Trabajo",
       "companies": {
         "roller":{
-          "text": "Mi trabajo fue refactorizar los componentes Vue 2 a Vue 3 con Typescript y documentarlos en Storybook de acuerdo con los nuevos Layouts.",
+          "text": "Mi trabajo fue refactorizar los componentes Vue 2 a Vue 3 con TypeScript y documentarlos en Storybook de acuerdo con los nuevos Layouts.",
           "link": "Ir al sitio web"
         },
         "lust": {
@@ -179,8 +179,8 @@
     },
     "header": {
       "title": "Hallo, ich bin Rick Schultz",
-      "subtitle": "Frontend Webentwickler",
-      "text": "Ein Frontend-Entwickler, der sich auf Vue.js und Typescript konzentriert und reiche, zugängliche und leistungsstarke Websites erstellt.",
+      "subtitle": "Frontend JavaScript Entwickler",
+      "text": "Ein Frontend-Entwickler, der sich auf Vue.js, React.js und TypeScript konzentriert und reiche, zugängliche und leistungsstarke Websites erstellt.",
       "btn1": "Stellen Sie mich ein",
       "btn2": "Meine Arbeit ansehen"
     },
@@ -189,7 +189,7 @@
       "title": "Arbeitsportfolio",
       "companies": {
         "roller":{
-          "text": "Meine Arbeit bestand darin, die Vue 2-Komponenten in Vue 3 mit Typescript zu refaktorisieren und sie gemäß den neuen Layouts im Storybook zu dokumentieren.",
+          "text": "Meine Arbeit bestand darin, die Vue 2-Komponenten in Vue 3 mit TypeScript zu refaktorisieren und sie gemäß den neuen Layouts im Storybook zu dokumentieren.",
           "link": "Zur Website"
         },
         "lust": {
